@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>فلسطين | حكاية لا تنتهي</title>
+  <meta name="description" content="تجربة وثائقية سينمائية تفاعلية تحكي فلسطين في خمسة عشر مشهدًا: الأرض، القدس، التاريخ، النكبة، اللجوء، الاحتلال، النضال، غزة، والهوية.">
+  <meta name="author" content="ملك عبدالسلام زايدة">
+  <meta name="theme-color" content="#171717">
+  <meta property="og:title" content="فلسطين | حكاية لا تنتهي">
+  <meta property="og:description" content="خمسة عشر مشهدًا تحكي أرضًا وشعبًا وهوية وذاكرة لا تغيب.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/intro/olive-harvest-2015.jpg">
+  <meta property="og:locale" content="ar_PS">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23171717'/%3E%3Cpath d='M14 50C26 40 32 28 40 14' stroke='%23D7C6A1' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3Cg fill='%236F7960'%3E%3Cellipse cx='24' cy='36' rx='8' ry='3.4' transform='rotate(-38 24 36)'/%3E%3Cellipse cx='34' cy='24' rx='8' ry='3.4' transform='rotate(-48 34 24)'/%3E%3Cellipse cx='28' cy='43' rx='7' ry='3' transform='rotate(-30 28 43)'/%3E%3Cellipse cx='39' cy='30' rx='7' ry='3' transform='rotate(-55 39 30)'/%3E%3C/g%3E%3Ccircle cx='22' cy='27' r='4' fill='%238B3935'/%3E%3Ccircle cx='43' cy='38' r='3.4' fill='%238B3935'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/ibm-plex-arabic-400-arabic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/ibm-plex-arabic-700-arabic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/images/intro/olive-harvest-2015-900.jpg" as="image" imagesrcset="assets/images/intro/olive-harvest-2015-900.jpg 900w, assets/images/intro/olive-harvest-2015.jpg 1600w" imagesizes="100vw">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+
+  <svg class="svg-defs" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 20V4M5 11l7-7 7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 4v16M19 13l-7 7-7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V6l10-2v12M9 18a3 3 0 1 1-3-3 3 3 0 0 1 3 3Zm10-2a3 3 0 1 1-3-3 3 3 0 0 1 3 3Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5-11-6.5Z" fill="currentColor"/></symbol>
+      <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4v6M6 14v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Zm0 0v16M8 7h8M8 11h6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+      <symbol id="i-restart" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 2.4 7.4M4 4v6h6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-volume" viewBox="0 0 24 24"><path d="M4 10v4h4l5 4V6l-5 4H4Zm12-2a5 5 0 0 1 0 8m2.5-11a9 9 0 0 1 0 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-volume-off" viewBox="0 0 24 24"><path d="M4 10v4h4l5 4V6l-5 4H4Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="m16 9 5 6m0-6-5 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+      <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4m-5 5 5-5 5 5M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-key" viewBox="0 0 64 64"><path d="M24 39a11 11 0 1 1 8-18 11 11 0 0 1-2 15l-2 2 4 4-5 5-4-4-3 3-5-5 3-3 6 1Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="m31 35 13-13M40 26l4 4M45 21l4 4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+      <symbol id="olive-branch" viewBox="0 0 180 180">
+        <path d="M22 160C54 136 74 108 90 76c10-20 22-37 44-50" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <g fill="currentColor">
+          <path d="M62 132c-20-3-31-16-33-35 20 2 31 14 33 35Z" opacity=".82"/>
+          <path d="M78 113c5-20 19-30 38-29-4 20-17 30-38 29Z" opacity=".7"/>
+          <path d="M93 88c-18-5-27-17-27-36 18 3 27 16 27 36Z" opacity=".78"/>
+          <path d="M106 68c7-18 21-26 39-23-6 18-19 26-39 23Z" opacity=".66"/>
+          <path d="M121 47c-15-6-22-17-21-34 15 4 22 15 21 34Z" opacity=".8"/>
+          <path d="M137 33c8-13 20-18 33-13-8 12-19 17-33 13Z" opacity=".62"/>
+          <path d="M48 149c9-15 22-22 38-18-8 16-21 22-38 18Z" opacity=".6"/>
+        </g>
+        <g fill="#8B3935">
+          <ellipse cx="78" cy="138" rx="8" ry="10" transform="rotate(-28 78 138)" opacity=".9"/>
+          <ellipse cx="132" cy="58" rx="7" ry="9" transform="rotate(-30 132 58)" opacity=".85"/>
+        </g>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#s1">تخطَّ إلى المحتوى</a>
+
+  <div class="boot" id="boot" aria-hidden="true">
+    <svg class="boot__mark"><use href="#olive-branch"/></svg>
+    <p class="boot__name">فلسطين</p>
+    <p class="boot__line">حكاية لا تنتهي</p>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="thread" aria-hidden="true"></div>
+  <canvas id="cursor-lines" class="cursor-lines" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <button class="brand" type="button" data-go="0" aria-label="العودة إلى بداية الحكاية">
+      <svg class="brand__mark" aria-hidden="true"><use href="#olive-branch"/></svg>
+      <span class="brand__text">
+        <span class="brand__ar">فلسطين</span>
+        <span class="brand__en">A STORY THAT NEVER ENDS</span>
+      </span>
+    </button>
+
+    <div class="topbar__actions">
+      <button class="hud-btn hud-btn--icon" id="muteToggle" type="button" aria-pressed="false" aria-label="كتم صوت الموسيقى" title="كتم صوت الموسيقى">
+        <svg class="icon" aria-hidden="true"><use href="#i-volume"/></svg>
+      </button>
+      <button class="hud-btn" id="creditsOpen" type="button" aria-label="المصادر والحقوق">
+        <svg class="icon" aria-hidden="true"><use href="#i-book"/></svg>
+        <span class="hud-btn__label">المصادر والحقوق</span>
+      </button>
+    </div>
+  </header>
+
+  <aside class="rail" aria-label="مؤشر التقدم والتنقل بين الفصول">
+    <div class="rail__track" aria-hidden="true"><span class="rail__fill" id="railFill"></span></div>
+    <ol class="rail__dots" id="railDots"></ol>
+    <p class="rail__readout">
+      <span class="rail__current" id="railCurrent">01</span>
+      <span class="rail__total">/ 15</span>
+      <span class="rail__chapter" id="railChapter">المقدمة</span>
+    </p>
+  </aside>
+
+  <main id="deck" class="deck">
+
+    <!-- 01 · INTRO -->
+    <section class="slide slide--intro is-active" id="s1" data-chapter="المقدمة" data-scene="01" aria-roledescription="مشهد" aria-label="المشهد الأول: المقدمة">
+      <div class="slide__bg">
+        <img class="media__img anim-zoom-slow" src="assets/images/intro/olive-harvest-2015.jpg"
+             srcset="assets/images/intro/olive-harvest-2015-900.jpg 900w, assets/images/intro/olive-harvest-2015.jpg 1600w"
+             sizes="100vw" alt="مزارعون فلسطينيون يقطفون الزيتون بين أشجار الزيتون في تشرين الثاني 2015" width="1600" height="1067" fetchpriority="high" decoding="async">
+      </div>
+      <div class="scrim scrim--hero" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="hero">
+          <p class="hero__kicker reveal" style="--d:.2s">حكاية أرض وشعب</p>
+          <h1 class="hero__title reveal" style="--d:.35s">فلسطين<span class="dots">...</span></h1>
+          <p class="hero__sub reveal" style="--d:.55s">حكاية لا تنتهي</p>
+          <p class="hero__lede reveal" style="--d:.75s">حكاية أرض، وشعب، وهوية وذاكرة لا تغيب.</p>
+          <div class="hero__actions reveal" style="--d:.95s">
+            <button class="cta" id="startStory" type="button" data-go="1">
+              <span>ابدأ الحكاية</span>
+              <svg class="icon icon--down" aria-hidden="true"><use href="#i-arrow-down"/></svg>
+            </button>
+            <span class="hero__hint">١٥ مشهدًا · رحلة واحدة</span>
+          </div>
+          <p class="hero__credit reveal" style="--d:1.15s">من صنع ملك عبدالسلام</p>
+        </div>
+        <svg class="hero__branch" aria-hidden="true"><use href="#olive-branch"/></svg>
+      </div>
+      <div class="scene-no" aria-hidden="true">01</div>
+      <div class="slide__meta">
+        <span>فلسطين · من الذاكرة إلى الحاضر</span>
+        <button class="text-btn js-sources" type="button" data-chapter="1">مصادر المشهد والصور</button>
+      </div>
+    </section>
+
+    <!-- 02 · LAND -->
+    <section class="slide slide--geography" id="s2" data-chapter="الأرض" data-scene="02" aria-roledescription="مشهد" aria-label="المشهد الثاني: الأرض" aria-hidden="true" inert>
+      <div class="slide__bg">
+        <img class="media__img anim-pan-left" src="assets/images/geography/jericho-panorama.jpg"
+             srcset="assets/images/geography/jericho-panorama-900.jpg 900w, assets/images/geography/jericho-panorama.jpg 1600w"
+             sizes="100vw" alt="سهل أريحا الأخضر عند سفح جبال فلسطين، باتجاه البحر الميت" width="1600" height="690" loading="lazy" decoding="async">
+      </div>
+      <div class="scrim scrim--right" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split">
+          <div class="copy">
+            <p class="eyebrow reveal">الأرض <span class="eyebrow__sep">·</span> جغرافيا المكان</p>
+            <h2 class="title reveal" style="--d:.12s">هنا فلسطين...<br><em>أرض التنوع والحكايات.</em></h2>
+            <p class="lede reveal" style="--d:.28s">من الساحل إلى الجبال، ومن السهول إلى بساتين الزيتون، تحمل فلسطين طبيعة متنوعة وقرى ومدنًا ارتبطت بذاكرة أجيال من أهلها.</p>
+            <ul class="chips reveal" style="--d:.42s" aria-label="ملامح جغرافية">
+              <li>سهل ساحلي خصب</li>
+              <li>جبال وهضاب</li>
+              <li>غور وأودية</li>
+              <li>بساتين زيتون</li>
+            </ul>
+            <div class="copy__foot reveal" style="--d:.56s">
+              <button class="source-btn js-sources" type="button" data-chapter="2">المصادر والصور</button>
+              <span class="meta-note">رسم الموقع توضيحي، لا يمثل حدودًا سياسية.</span>
+            </div>
+          </div>
+          <aside class="aside">
+            <figure class="map-card reveal" style="--d:.35s">
+              <div class="map-card__head"><span>موقع فلسطين</span><span class="map-card__tag">رسم توضيحي</span></div>
+              <svg class="geo-map" viewBox="0 0 420 470" role="img" aria-labelledby="geoMapTitle geoMapDesc">
+                <title id="geoMapTitle">خريطة موقع توضيحية لفلسطين</title>
+                <desc id="geoMapDesc">رسم يوضح البحر المتوسط غربًا، ونهر الأردن والبحر الميت شرقًا، ومدن حيفا ويافا والقدس وغزة ونابلس وأريحا. لا يمثل حدودًا سياسية.</desc>
+                <path class="map-sea" d="M0 0h128c10 74-8 128-2 194 7 76-8 138-2 276H0Z"/>
+                <path class="map-land" d="M146 16c34 7 80 2 120 4 32 1 62 8 94 4 12 32 4 66 8 100 5 44 2 86 6 130 3 34 9 70 2 106-1 30 5 62 2 94-56 6-112-2-168 2-54 3-108-3-162 0 18-30 10-62 12-94 2-38-6-76-4-114 2-42-4-84-2-126 1-36-4-72-8-106Z"/>
+                <path class="map-river" d="M304 24c-6 38 4 72 2 108-2 32 5 64 2 96-3 34 4 68 2 102 0 34 5 68 0 102"/>
+                <ellipse class="map-water" cx="305" cy="130" rx="17" ry="10"/>
+                <path class="map-water" d="M301 268c12 10 18 24 3 44-8 12-2 26-10 40-8-18-2-32-8-46-8-18-4-30 15-38Z"/>
+                <path class="map-border" d="M148 330c44 22 106 26 158 10"/>
+                <g class="map-cities">
+                  <g><circle cx="158" cy="94" r="3.5"/><text x="168" y="98">حيفا</text></g>
+                  <g><circle cx="143" cy="214" r="3.5"/><text x="153" y="218">يافا</text></g>
+                  <g><circle cx="213" cy="258" r="4.5" class="is-capital"/><text x="224" y="262">القدس</text></g>
+                  <g><circle cx="127" cy="347" r="3.5"/><text x="137" y="351">غزة</text></g>
+                  <g><circle cx="247" cy="172" r="3.5"/><text x="257" y="176">نابلس</text></g>
+                  <g><circle cx="295" cy="276" r="3.5"/><text x="265" y="292">أريحا</text></g>
+                  <g><circle cx="194" cy="401" r="3.5"/><text x="204" y="405">بئر السبع</text></g>
+                </g>
+                <text class="map-label" x="44" y="236">البحر</text>
+                <text class="map-label" x="40" y="254">المتوسط</text>
+                <text class="map-label map-label--small" x="320" y="212" transform="rotate(90 320 212)">نهر الأردن</text>
+                <text class="map-label map-label--small" x="319" y="316">البحر الميت</text>
+                <text class="map-label map-label--small" x="219" y="434">النقب</text>
+                <g class="map-north" transform="translate(378 34)">
+                  <path d="M0 18 6 2l6 16" fill="none"/>
+                  <text x="6" y="30" text-anchor="middle">ش</text>
+                </g>
+              </svg>
+              <figcaption>بين البحر المتوسط ونهر الأردن؛ تنوّع يبدأ من الساحل ويمرّ بالجبال حتى الغور.</figcaption>
+            </figure>
+            <div class="mini-gallery">
+              <figure class="photo-card reveal" style="--d:.48s">
+                <img src="assets/images/geography/nablus-old-city.jpg" srcset="assets/images/geography/nablus-old-city-900.jpg 900w, assets/images/geography/nablus-old-city.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="زقاق حجري في البلدة القديمة في نابلس" width="1600" height="900" loading="lazy" decoding="async">
+                <figcaption>البلدة القديمة، نابلس <span>تصوير: محمد حجازي</span></figcaption>
+              </figure>
+              <figure class="photo-card reveal" style="--d:.6s">
+                <img src="assets/images/geography/acre-coast.jpg" srcset="assets/images/geography/acre-coast-900.jpg 900w, assets/images/geography/acre-coast.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="مدينة عكا وساحلها من البحر" width="1600" height="1200" loading="lazy" decoding="async">
+                <figcaption>ساحل عكا <span>تصوير: شلومو روديد</span></figcaption>
+              </figure>
+            </div>
+          </aside>
+        </div>
+      </div>
+      <div class="scene-no" aria-hidden="true">02</div>
+      <div class="slide__meta"><span>الأرض · من الساحل إلى الغور</span><span>الصورة: سهل أريحا — دافيدي ماورو</span></div>
+    </section>
+
+    <!-- 03 · JERUSALEM -->
+    <section class="slide slide--jerusalem" id="s3" data-chapter="القدس" data-scene="03" aria-roledescription="مشهد" aria-label="المشهد الثالث: القدس" aria-hidden="true" inert>
+      <div class="slide__bg slide__bg--jerusalem">
+        <img class="media__img anim-zoom-slow" src="assets/images/jerusalem/dome-of-the-rock.jpg"
+             srcset="assets/images/jerusalem/dome-of-the-rock-900.jpg 900w, assets/images/jerusalem/dome-of-the-rock.jpg 1600w"
+             sizes="100vw" alt="قبة الصخرة في المسجد الأقصى وسط البلدة القديمة في القدس" width="1600" height="1066" loading="lazy" decoding="async">
+      </div>
+      <div class="scrim scrim--jerusalem" aria-hidden="true"></div>
+      <div class="glow glow--gold" aria-hidden="true"></div>
+      <div class="slide__inner slide__inner--bottom">
+        <div class="jerusalem">
+          <p class="eyebrow eyebrow--gold reveal">القدس <span class="eyebrow__sep">·</span> مدينة تسكن الذاكرة</p>
+          <h2 class="title title--xl reveal" style="--d:.12s">القدس... مدينة<br><em>لا تشبه سواها.</em></h2>
+          <div class="jerusalem__body reveal" style="--d:.3s">
+            <p class="lede">بين أزقتها الحجرية وأسوارها القديمة، تحتضن القدس تاريخًا دينيًا وثقافيًا وإنسانيًا عميقًا، وتبقى حاضرة في وجدان الفلسطينيين.</p>
+            <div class="fact-line">
+              <span class="fact-line__mark"></span>
+              <p>البلدة القديمة وأسوارها على قائمة التراث العالمي منذ 1981، وهي مدرجة على قائمة التراث المهدد بالخطر.</p>
+            </div>
+            <div class="copy__foot">
+              <button class="source-btn source-btn--light js-sources" type="button" data-chapter="3">المصدر والصور</button>
+              <span class="meta-note">قبة الصخرة من فوق أسطح البلدة القديمة</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene-no scene-no--light" aria-hidden="true">03</div>
+      <div class="slide__meta slide__meta--light"><span>القدس · مدينة للديانات الثلاث</span><span>تصوير: بيرتهولد فيرنر · ملك عام</span></div>
+    </section>
+
+    <!-- 04 · HISTORY -->
+    <section class="slide slide--history" id="s4" data-chapter="التاريخ" data-scene="04" aria-roledescription="مشهد" aria-label="المشهد الرابع: التاريخ" aria-hidden="true" inert>
+      <div class="slide__bg">
+        <img class="media__img anim-zoom-right" src="assets/images/history/tell-es-sultan.jpg"
+             srcset="assets/images/history/tell-es-sultan-900.jpg 900w, assets/images/history/tell-es-sultan.jpg 1600w"
+             sizes="100vw" alt="تل السلطان في أريحا، أحد أقدم المواقع الأثرية المأهولة في العالم" width="1600" height="1089" loading="lazy" decoding="async">
+      </div>
+      <div class="scrim scrim--history" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--history">
+          <div class="copy">
+            <p class="eyebrow reveal">التاريخ <span class="eyebrow__sep">·</span> جذور تمتد عبر الزمن</p>
+            <h2 class="title reveal" style="--d:.12s">أرض تحمل<br><em>طبقات من التاريخ.</em></h2>
+            <p class="lede reveal" style="--d:.28s">شهدت فلسطين تعاقب حضارات وممالك وإمبراطوريات عبر آلاف السنين، وتركت هذه الحقب آثارًا وشواهد معمارية وثقافية ما زالت حاضرة في مدنها ومواقعها الأثرية.</p>
+            <ul class="era-list reveal" style="--d:.42s" aria-label="حقب تاريخية">
+              <li>كنعانية</li><li>رومانية</li><li>بيزنطية</li><li>إسلامية</li><li>عثمانية</li>
+            </ul>
+            <div class="fact-line fact-line--dark reveal" style="--d:.52s">
+              <span class="fact-line__mark"></span>
+              <p>أُدرجت أريحا القديمة (تل السلطان) على قائمة التراث العالمي لليونسكو عام 2023، وهي من أقدم المواقع المأهولة في العالم.</p>
+            </div>
+            <div class="copy__foot reveal" style="--d:.62s">
+              <button class="source-btn js-sources" type="button" data-chapter="4">المصادر والصور</button>
+              <span class="meta-note">ليست حضارة واحدة... بل طبقات تتراكم.</span>
+            </div>
+          </div>
+          <figure class="archive-card archive-card--tall reveal" style="--d:.38s">
+            <img src="assets/images/history/sebastia-colonnade.jpg" srcset="assets/images/history/sebastia-colonnade-900.jpg 900w, assets/images/history/sebastia-colonnade.jpg 1600w" sizes="(max-width: 900px) 55vw, 22vw" alt="أعمدة أثرية من العهد الروماني في سبسطية، نابلس" width="1600" height="1841" loading="lazy" decoding="async">
+            <figcaption>
+              <span class="archive-card__tag">أرشيف</span>
+              أعمدة سبسطية — من طبقات الحكم الروماني في جبال نابلس.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="scene-no" aria-hidden="true">04</div>
+      <div class="slide__meta"><span>التاريخ · آثار وشواهد</span><span>الصورة: تل السلطان — دييغو ديلسو</span></div>
+    </section>
+
+    <!-- 05 · OTTOMAN -->
+    <section class="slide slide--ottoman" id="s5" data-chapter="العهد العثماني" data-scene="05" aria-roledescription="مشهد" aria-label="المشهد الخامس: فلسطين العثمانية" aria-hidden="true" inert>
+      <div class="ottoman-bg" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--archive">
+          <div class="copy">
+            <p class="eyebrow reveal">فلسطين العثمانية <span class="eyebrow__sep">·</span> 1517 — 1917</p>
+            <h2 class="title reveal" style="--d:.12s">حياة تشكلت<br><em>بين القرى والمدن.</em></h2>
+            <p class="lede reveal" style="--d:.28s">خلال الحكم العثماني لفلسطين، تشكلت حياة اجتماعية واقتصادية وثقافية متنوعة، ارتبطت بالزراعة والأسواق والحرف التقليدية والمدن والقرى.</p>
+            <p class="body-text reveal" style="--d:.4s">كان الزيتون وصناعة الصابون والأسواق اليومية في نابلس والقدس ويافا جزءًا من نسيج الحياة؛ حياة عادية تحفظها الصور أكثر مما تحفظها التواريخ.</p>
+            <div class="copy__foot reveal" style="--d:.52s">
+              <button class="source-btn js-sources" type="button" data-chapter="5">المصادر والصور</button>
+              <span class="meta-note">صور أرشيفية من مجموعة مكتبة الكونغرس.</span>
+            </div>
+          </div>
+          <div class="archive-stack">
+            <figure class="archive-card archive-card--a reveal" style="--d:.3s">
+              <img src="assets/images/ottoman/watermelon-market-1900.jpg" srcset="assets/images/ottoman/watermelon-market-1900-900.jpg 900w, assets/images/ottoman/watermelon-market-1900.jpg 1600w" sizes="(max-width: 900px) 62vw, 26vw" alt="باعة بطيخ في سوق القدس في مطلع القرن العشرين" width="1600" height="1730" loading="lazy" decoding="async">
+              <figcaption><span>القدس، نحو 1900–1920</span>سوق البطيخ — من الحياة اليومية في المدينة.</figcaption>
+            </figure>
+            <figure class="archive-card archive-card--b reveal" style="--d:.46s">
+              <img src="assets/images/ottoman/jaffa-gate-1900.jpg" srcset="assets/images/ottoman/jaffa-gate-1900-900.jpg 900w, assets/images/ottoman/jaffa-gate-1900.jpg 1600w" sizes="(max-width: 900px) 52vw, 21vw" alt="باب الخليل (باب يافا) في القدس نحو عام 1900" width="1600" height="1185" loading="lazy" decoding="async">
+              <figcaption><span>القدس، نحو 1900</span>باب الخليل — بوابة الحياة اليومية.</figcaption>
+            </figure>
+            <p class="date-stamp" aria-hidden="true">1517 — 1917</p>
+          </div>
+        </div>
+      </div>
+      <div class="scene-no" aria-hidden="true">05</div>
+      <div class="slide__meta"><span>أرشيف · نحو 1900</span><span>American Colony Photo Dept. · ملك عام</span></div>
+    </section>
+
+    <!-- 06 · MANDATE -->
+    <section class="slide slide--mandate" id="s6" data-chapter="الانتداب" data-scene="06" aria-roledescription="مشهد" aria-label="المشهد السادس: الانتداب البريطاني" aria-hidden="true" inert>
+      <div class="mandate-bg" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--archive-mandate">
+          <div class="copy">
+            <p class="eyebrow reveal">الانتداب البريطاني <span class="eyebrow__sep">·</span> 1920 — 1948</p>
+            <h2 class="title reveal" style="--d:.12s">حين بدأت<br><em>التحولات الكبرى.</em></h2>
+            <p class="lede reveal" style="--d:.28s">بعد الحرب العالمية الأولى، خضعت فلسطين للانتداب البريطاني. وشهدت تلك الفترة تحولات سياسية واجتماعية كبيرة، ارتبطت بوعد بلفور عام 1917، والهجرة الصهيونية، وتصاعد المطالب الوطنية الفلسطينية.</p>
+            <div class="copy__foot reveal" style="--d:.42s">
+              <button class="source-btn js-sources" type="button" data-chapter="6">المصادر والصور</button>
+              <span class="meta-note">وعد بلفور: 2 تشرين الثاني/نوفمبر 1917.</span>
+            </div>
+          </div>
+          <div class="mandate-collage">
+            <figure class="pin-card pin-card--main reveal" style="--d:.3s">
+              <img src="assets/images/mandate/mandate-police-1947.jpg" srcset="assets/images/mandate/mandate-police-1947-900.jpg 900w, assets/images/mandate/mandate-police-1947.jpg 1600w" sizes="(max-width: 900px) 64vw, 27vw" alt="شرطي بريطاني يفحص أوراق المارة في شارع بالقدس عام 1947" width="1600" height="1181" loading="lazy" decoding="async">
+              <figcaption><span>القدس، 1947</span>شرطي بريطاني يفحص أوراق المارة — انتظام يومي تحت حكم الانتداب.</figcaption>
+            </figure>
+            <figure class="pin-card pin-card--doc reveal" style="--d:.44s">
+              <img src="assets/images/mandate/balfour-declaration.jpg" srcset="assets/images/mandate/balfour-declaration-900.jpg 900w, assets/images/mandate/balfour-declaration.jpg 1600w" sizes="(max-width: 900px) 34vw, 13vw" alt="نسخة من وعد بلفور الموقعة عام 1917" width="1600" height="2106" loading="lazy" decoding="async">
+              <figcaption><span>2 نوفمبر 1917</span>وعد بلفور.</figcaption>
+            </figure>
+            <figure class="pin-card pin-card--small reveal" style="--d:.56s">
+              <img src="assets/images/mandate/jaffa-boats-1930s.jpg" srcset="assets/images/mandate/jaffa-boats-1930s-900.jpg 900w, assets/images/mandate/jaffa-boats-1930s.jpg 1600w" sizes="(max-width: 900px) 40vw, 15vw" alt="قوارب راسية في ميناء يافا في ثلاثينيات القرن العشرين" width="1600" height="1003" loading="lazy" decoding="async">
+              <figcaption><span>يافا، الثلاثينيات</span>مرفأ يافا.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <ol class="timeline timeline--mandate reveal" style="--d:.7s" aria-label="خط زمني لفترة الانتداب">
+          <li><b>1917</b><span>وعد بلفور</span></li>
+          <li><b>1920</b><span>مؤتمر سان ريمو</span></li>
+          <li><b>1922</b><span>إقرار الانتداب</span></li>
+          <li><b>1936–39</b><span>ثورة فلسطينية كبرى</span></li>
+          <li><b>1947</b><span>قرار التقسيم</span></li>
+        </ol>
+      </div>
+      <div class="scene-no" aria-hidden="true">06</div>
+      <div class="slide__meta"><span>الانتداب · وثائق وأرشيف</span><span>Hans Pinn · ملك عام / Wikimedia Commons</span></div>
+    </section>
+
+    <!-- 07 · PARTITION -->
+    <section class="slide slide--partition" id="s7" data-chapter="التقسيم" data-scene="07" aria-roledescription="مشهد" aria-label="المشهد السابع: قرار التقسيم 1947" aria-hidden="true" inert>
+      <div class="partition-bg" aria-hidden="true"></div>
+      <div class="ghost-year" aria-hidden="true">1947</div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--map">
+          <div class="copy">
+            <p class="eyebrow reveal">التقسيم <span class="eyebrow__sep">·</span> 29 تشرين الثاني/نوفمبر 1947</p>
+            <h2 class="title reveal" style="--d:.12s">قرار غيّر<br><em>مسار الحكاية.</em></h2>
+            <p class="lede reveal" style="--d:.28s">في 29 نوفمبر 1947، أصدرت الجمعية العامة للأمم المتحدة القرار 181، المتعلق بتوصية تقسيم فلسطين إلى دولتين عربية ويهودية، مع نظام دولي خاص للقدس. وأثار القرار تحولات واعتراضات وصراعًا متصاعدًا.</p>
+            <div class="vote-grid reveal" style="--d:.42s">
+              <div class="vote vote--yes"><b>33</b><span>مع</span></div>
+              <div class="vote vote--no"><b>13</b><span>ضد</span></div>
+              <div class="vote vote--abstain"><b>10</b><span>امتناع</span></div>
+            </div>
+            <p class="body-text body-text--small reveal" style="--d:.52s">قبل الجانب الصهيوني الخطة، ورفضها الجانب العربي؛ ولم تُنفّذ خطة القدس الدولية، ودخلت المنطقة مسار الحرب بعد القرار.</p>
+            <div class="copy__foot reveal" style="--d:.62s">
+              <button class="source-btn js-sources" type="button" data-chapter="7">المصادر والصور</button>
+              <span class="meta-note">الخريطة: اقتراح 1947، وليست خريطة الوضع الحالي.</span>
+            </div>
+          </div>
+          <figure class="partition-map reveal" style="--d:.34s">
+            <div class="partition-map__frame">
+              <img src="assets/images/partition/un-partition-plan-1947-ar.png" alt="خريطة الأمم المتحدة العربية لخطة تقسيم فلسطين عام 1947" width="627" height="1147" loading="lazy" decoding="async">
+            </div>
+            <figcaption class="partition-map__caption">
+              <span class="partition-map__title">خطة التقسيم المقترحة — القرار 181</span>
+              <span class="partition-map__note">خريطة تاريخية بالعربية. الألوان وفق دليل الخريطة الأصلي.</span>
+              <ul class="map-legend">
+                <li><i class="swatch swatch--arab"></i>دولة عربية</li>
+                <li><i class="swatch swatch--jewish"></i>دولة يهودية</li>
+                <li><i class="swatch swatch--intl"></i>منطقة دولية</li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="scene-no" aria-hidden="true">07</div>
+      <div class="slide__meta"><span>القرار 181 (II) · الجمعية العامة</span><span>خريطة: Wikimedia Commons · ملك عام</span></div>
+    </section>
+
+    <!-- 08 · NAKBA -->
+    <section class="slide slide--nakba" id="s8" data-chapter="النكبة" data-scene="08" aria-roledescription="مشهد" aria-label="المشهد الثامن: النكبة 1948" aria-hidden="true" inert>
+      <div class="slide__bg">
+        <img class="media__img anim-zoom-slow" src="assets/images/nakba/fleeing-jaffa-1948.jpg"
+             srcset="assets/images/nakba/fleeing-jaffa-1948-900.jpg 900w, assets/images/nakba/fleeing-jaffa-1948.jpg 1600w"
+             sizes="100vw" alt="لاجئون فلسطينيون يغادرون يافا في عام 1948" width="1600" height="1217" loading="lazy" decoding="async">
+      </div>
+      <div class="scrim scrim--nakba" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--nakba">
+          <div class="copy">
+            <p class="eyebrow eyebrow--muted reveal">النكبة <span class="eyebrow__sep">·</span> 1948</p>
+            <h2 class="title reveal" style="--d:.12s">النكبة...<br><em>ذاكرة التهجير والفقد.</em></h2>
+            <p class="lede reveal" style="--d:.3s">شهد الفلسطينيون خلال حرب 1947–1949 تهجيرًا واسعًا وفقدانًا للمنازل والقرى، وأصبح مئات الآلاف لاجئين. ومنذ ذلك الوقت، ظلت النكبة جزءًا أساسيًا من الذاكرة والهوية الفلسطينية.</p>
+            <div class="fact-line fact-line--mono reveal" style="--d:.44s">
+              <span class="fact-line__mark"></span>
+              <p>تشير الأونروا إلى نزوح أكثر من 700 ألف فلسطيني بين نيسان/أبريل وآب/أغسطس 1948.</p>
+            </div>
+            <div class="key-note reveal" style="--d:.56s">
+              <svg class="key-note__icon" aria-hidden="true"><use href="#i-key"/></svg>
+              <p><b>مفتاح البيت</b><span>رمزٌ للذاكرة والعودة، لا مجرد أثر.</span></p>
+            </div>
+            <div class="copy__foot reveal" style="--d:.66s">
+              <button class="source-btn source-btn--mono js-sources" type="button" data-chapter="8">المصادر والصور</button>
+              <span class="meta-note">الصورة: لاجئون يغادرون يافا، 1948.</span>
+            </div>
+          </div>
+          <figure class="archive-card archive-card--nakba reveal" style="--d:.4s">
+            <img src="assets/images/nakba/jericho-schools-1948.jpg" srcset="assets/images/nakba/jericho-schools-1948-900.jpg 900w, assets/images/nakba/jericho-schools-1948.jpg 1600w" sizes="(max-width: 900px) 50vw, 19vw" alt="صفوف مدرسية في الهواء الطلق للاجئين الفلسطينيين في أريحا بعد النكبة" width="1600" height="1592" loading="lazy" decoding="async">
+            <figcaption><span>أريحا، بعد 1948</span>أولى الصفوف المدرسية في الهواء الطلق — الحياة تواصل رغم الفقد.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="scene-no" aria-hidden="true">08</div>
+      <div class="slide__meta"><span>النكبة · أرشيف 1948</span><span>الخلفية: ملك عام · صورة الأونروا: CC BY-SA 3.0 IGO</span></div>
+    </section>
+
+    <!-- 09 · REFUGEES -->
+    <section class="slide slide--refugees" id="s9" data-chapter="اللجوء" data-scene="09" aria-roledescription="مشهد" aria-label="المشهد التاسع: اللجوء والشتات" aria-hidden="true" inert>
+      <div class="slide__bg">
+        <img class="media__img anim-pan-right" src="assets/images/refugees/ein-el-hilweh-camp.jpg"
+             srcset="assets/images/refugees/ein-el-hilweh-camp-900.jpg 900w, assets/images/refugees/ein-el-hilweh-camp.jpg 1600w"
+             sizes="100vw" alt="مخيم عين الحلوة للاجئين الفلسطينيين في لبنان" width="1600" height="1605" loading="lazy" decoding="async">
+      </div>
+      <div class="scrim scrim--refugees" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--refugees">
+          <div class="copy">
+            <p class="eyebrow reveal">اللجوء والشتات <span class="eyebrow__sep">·</span> ذاكرة تعبر الحدود</p>
+            <h2 class="title reveal" style="--d:.12s">بعيدًا عن البيت...<br><em>بقيت الحكاية.</em></h2>
+            <p class="lede reveal" style="--d:.28s">امتدت تجربة اللجوء الفلسطيني عبر أجيال وفي بلدان متعددة. وحملت العائلات معها ذكرياتها ومفاتيح بيوتها ورواياتها، وظلت العودة والهوية حاضرتين في الذاكرة الفلسطينية.</p>
+            <div class="stat-row reveal" style="--d:.42s">
+              <div class="stat"><b>5.9<span>مليون</span></b><small>لاجئ مسجل لدى الأونروا</small></div>
+              <div class="stat"><b>58</b><small>مخيمًا معترفًا به</small></div>
+            </div>
+            <div class="host-map-card reveal" style="--d:.54s">
+              <p class="host-map-card__label">أقاليم عمليات الأونروا الخمسة</p>
+              <ul class="host-map-card__list">
+                <li>الأردن</li>
+                <li>لبنان</li>
+                <li>سوريا</li>
+                <li>الضفة الغربية</li>
+                <li>قطاع غزة</li>
+              </ul>
+              <p class="host-map-card__note">قائمة توضيحية، لا تمثل أعداد اللاجئين.</p>
+            </div>
+            <div class="copy__foot reveal" style="--d:.64s">
+              <button class="source-btn js-sources" type="button" data-chapter="9">المصادر والصور</button>
+            </div>
+          </div>
+          <figure class="photo-frame reveal" style="--d:.4s">
+            <img src="assets/images/refugees/refugee-girl-sidon.jpg" srcset="assets/images/refugees/refugee-girl-sidon-900.jpg 900w, assets/images/refugees/refugee-girl-sidon.jpg 1600w" sizes="(max-width: 900px) 56vw, 23vw" alt="طفلة لاجئة تحمل أختها الرضيعة في مخيم ميا ميا قرب صيدا، لبنان" width="1600" height="1566" loading="lazy" decoding="async">
+            <figcaption><span>قرب صيدا، لبنان</span>طفلة تحمل أختها الرضيعة في مخيم ميا ميا — أرشيف الأونروا.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="scene-no" aria-hidden="true">09</div>
+      <div class="slide__meta"><span>الشتات · أرشيف الأونروا</span><span>المصدر: UNRWA · Wikimedia Commons</span></div>
+    </section>
+
+    <!-- 10 · 1967 -->
+    <section class="slide slide--1967" id="s10" data-chapter="حرب 1967" data-scene="10" aria-roledescription="مشهد" aria-label="المشهد العاشر: حرب 1967" aria-hidden="true" inert>
+      <div class="slide__bg slide__bg--dark" aria-hidden="true"></div>
+      <div class="ghost-year ghost-year--1967" aria-hidden="true">1967</div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--1967">
+          <div class="copy">
+            <p class="eyebrow reveal">حرب الأيام الستة <span class="eyebrow__sep">·</span> يونيو 1967</p>
+            <h2 class="title reveal" style="--d:.12s">حرب الأيام الستة...<br><em>وتحول المشهد.</em></h2>
+            <p class="lede reveal" style="--d:.28s">في يونيو 1967، احتلت إسرائيل الضفة الغربية بما فيها القدس الشرقية وقطاع غزة، إضافة إلى أراضٍ عربية أخرى. ومنذ ذلك الحين أصبحت أوضاع الأراضي الفلسطينية المحتلة محورًا رئيسيًا في القضية الفلسطينية والقرارات الدولية.</p>
+            <ol class="timeline timeline--1967 reveal" style="--d:.42s" aria-label="خط زمني لحرب 1967">
+              <li><b>5 يونيو</b><span>بدء القتال</span></li>
+              <li><b>7 يونيو</b><span>القدس الشرقية والضفة</span></li>
+              <li><b>10 يونيو</b><span>توقف القتال</span></li>
+              <li><b>22 نوفمبر</b><span>قرار مجلس الأمن 242</span></li>
+            </ol>
+            <p class="body-text body-text--small reveal" style="--d:.54s">أكد القرار 242 مبدأ عدم جواز الاستيلاء على الأرض بالقوة، ودعا إلى سلام عادل ودائم.</p>
+            <div class="copy__foot reveal" style="--d:.64s">
+              <button class="source-btn js-sources" type="button" data-chapter="10">المصادر والصور</button>
+              <span class="meta-note">خريطة تاريخية للجبهة الأردنية، باللغة الإنجليزية.</span>
+            </div>
+          </div>
+          <figure class="war-map reveal" style="--d:.36s">
+            <img src="assets/images/1967/six-day-war-map.jpg" alt="خريطة تاريخية لمسار القتال على الجبهة الأردنية خلال حرب 1967" width="904" height="890" loading="lazy" decoding="async">
+            <figcaption>
+              <span class="war-map__tag">وثيقة تاريخية</span>
+              <span>خريطة مسار القتال على الجبهة الأردنية، يونيو 1967. تشير الأسهم إلى محاور التقدم.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="scene-no" aria-hidden="true">10</div>
+      <div class="slide__meta"><span>1967 · قرار مجلس الأمن 242</span><span>خريطة: Wikimedia Commons · ملك عام</span></div>
+    </section>
+
+    <!-- 11 · OCCUPATION -->
+    <section class="slide slide--occupation" id="s11" data-chapter="الاحتلال" data-scene="11" aria-roledescription="مشهد" aria-label="المشهد الحادي عشر: الحياة تحت الاحتلال" aria-hidden="true" inert>
+      <div class="slide__bg">
+        <img class="media__img anim-pan-left" src="assets/images/occupation/abu-dis-barrier.jpg"
+             srcset="assets/images/occupation/abu-dis-barrier-900.jpg 900w, assets/images/occupation/abu-dis-barrier.jpg 1600w"
+             sizes="100vw" alt="جدار الفصل الإسرائيلي الخرساني عند أبو ديس في الضفة الغربية" width="1600" height="900" loading="lazy" decoding="async">
+      </div>
+      <div class="scrim scrim--occupation" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--occupation">
+          <div class="copy copy--panel">
+            <p class="eyebrow reveal">الحياة تحت الاحتلال <span class="eyebrow__sep">·</span> الأرض والحقوق</p>
+            <h2 class="title reveal" style="--d:.12s">تفاصيل يومية<br><em>تختبر معنى الحياة.</em></h2>
+            <p class="lede reveal" style="--d:.28s">أثرت سياسات الاحتلال، والاستيطان، والقيود على الحركة، والحواجز، وجدار الفصل، ومصادرة الأراضي في حياة الفلسطينيين ووصولهم إلى التعليم والعمل والخدمات والتنقل.</p>
+            <ul class="constraints reveal" style="--d:.42s">
+              <li><span>01</span>قيود على الحركة والحواجز</li>
+              <li><span>02</span>توسّع الاستيطان ومصادرة الأرض</li>
+              <li><span>03</span>أثر الجدار على القرى والمدن</li>
+            </ul>
+            <div class="copy__foot reveal" style="--d:.54s">
+              <button class="source-btn source-btn--light js-sources" type="button" data-chapter="11">المصادر والصور</button>
+              <span class="meta-note">أبو ديس، الضفة الغربية · تصوير: محمد حجازي</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene-no scene-no--light" aria-hidden="true">11</div>
+      <div class="slide__meta slide__meta--light"><span>الاحتلال والاستيطان</span><span>الشبكة الدولية للصليب الأحمر · OCHA</span></div>
+    </section>
+
+    <!-- 12 · NATIONAL MOVEMENT -->
+    <section class="slide slide--national" id="s12" data-chapter="النضال الوطني" data-scene="12" aria-roledescription="مشهد" aria-label="المشهد الثاني عشر: الحركة الوطنية الفلسطينية" aria-hidden="true" inert>
+      <div class="slide__bg">
+        <img class="media__img anim-zoom-slow" src="assets/images/national-movement/arafat-un.jpg"
+             srcset="assets/images/national-movement/arafat-un-900.jpg 900w, assets/images/national-movement/arafat-un.jpg 1600w"
+             sizes="100vw" alt="ياسر عرفات متحدثًا في الأمم المتحدة" width="1600" height="1094" loading="lazy" decoding="async">
+      </div>
+      <div class="scrim scrim--national" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--national">
+          <div class="copy">
+            <p class="eyebrow reveal">النضال الوطني <span class="eyebrow__sep">·</span> محطات</p>
+            <h2 class="title reveal" style="--d:.12s">رحلة طويلة<br><em>نحو تقرير المصير.</em></h2>
+            <p class="lede reveal" style="--d:.28s">شهد التاريخ الفلسطيني محطات متعددة من العمل الوطني والسياسي والشعبي، من تأسيس منظمة التحرير الفلسطينية إلى الانتفاضتين، ثم اتفاقيات أوسلو وما تلاها من تطورات سياسية.</p>
+            <div class="copy__foot reveal" style="--d:.42s">
+              <button class="source-btn source-btn--light js-sources" type="button" data-chapter="12">المصادر والصور</button>
+              <span class="meta-note">تختلف القراءات السياسية، وتواريخ المحطات الأساسية موثقة.</span>
+            </div>
+          </div>
+        </div>
+        <ol class="timeline timeline--national reveal" style="--d:.56s" aria-label="محطات في تاريخ الحركة الوطنية الفلسطينية">
+          <li><b>1964</b><span>تأسيس منظمة التحرير</span></li>
+          <li><b>1987</b><span>الانتفاضة الأولى</span></li>
+          <li><b>1988</b><span>إعلان الاستقلال</span></li>
+          <li><b>1993</b><span>اتفاقيات أوسلو</span></li>
+          <li><b>2000</b><span>الانتفاضة الثانية</span></li>
+        </ol>
+      </div>
+      <div class="scene-no" aria-hidden="true">12</div>
+      <div class="slide__meta"><span>الحركة الوطنية · محطات</span><span>تصوير: برنارد غوتفريد · مكتبة الكونغرس</span></div>
+    </section>
+
+    <!-- 13 · GAZA -->
+    <section class="slide slide--gaza" id="s13" data-chapter="غزة" data-scene="13" aria-roledescription="مشهد" aria-label="المشهد الثالث عشر: غزة" aria-hidden="true" inert>
+      <div class="slide__bg slide__bg--gaza" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--gaza">
+          <div class="copy">
+            <p class="eyebrow reveal">غزة <span class="eyebrow__sep">·</span> حكاية الإنسان والحياة</p>
+            <h2 class="title reveal" style="--d:.12s">غزة...<br><em>بين الألم والحياة.</em></h2>
+            <p class="lede reveal" style="--d:.28s">غزة ليست مجرد خبر أو رقم؛ إنها مجتمع له ذاكرة وثقافة وعائلات وبيوت ومدارس وأسواق. وقد واجه سكانها حصارًا وحروبًا وأزمات إنسانية متعاقبة، بلغت مستويات كارثية خلال الحرب الأخيرة.</p>
+            <p class="body-text body-text--small reveal" style="--d:.4s">لا يعرض هذا المشهد أرقام ضحايا أو نازحين ثابتة، لأنها تتغير؛ للاطلاع على الأرقام المحدثة راجع تقارير OCHA والأونروا.</p>
+            <div class="copy__foot reveal" style="--d:.54s">
+              <button class="source-btn source-btn--light js-sources" type="button" data-chapter="13">المصادر والصور</button>
+              <span class="meta-note">آخر مراجعة للنص: نوفمبر 2026.</span>
+            </div>
+          </div>
+          <div class="gaza-grid">
+            <figure class="gaza-card reveal" style="--d:.34s">
+              <img src="assets/images/gaza/gaza-beach.jpg" srcset="assets/images/gaza/gaza-beach-900.jpg 900w, assets/images/gaza/gaza-beach.jpg 1600w" sizes="(max-width: 900px) 68vw, 24vw" alt="عائلات على شاطئ غزة عام 2010" width="1600" height="1068" loading="lazy" decoding="async">
+              <figcaption><span>شاطئ غزة، 2010</span>الحياة اليومية على البحر.</figcaption>
+            </figure>
+            <figure class="gaza-card reveal" style="--d:.46s">
+              <img src="assets/images/gaza/gaza-harbor-2007.jpg" srcset="assets/images/gaza/gaza-harbor-2007-900.jpg 900w, assets/images/gaza/gaza-harbor-2007.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="مرفأ غزة وقوارب الصيد عام 2007" width="1600" height="1064" loading="lazy" decoding="async">
+              <figcaption><span>مرفأ غزة، 2007</span>قوارب الصيد.</figcaption>
+            </figure>
+            <figure class="gaza-card gaza-card--wide reveal" style="--d:.58s">
+              <img src="assets/images/gaza/unrwa-shelter-2025.jpg" srcset="assets/images/gaza/unrwa-shelter-2025-900.jpg 900w, assets/images/gaza/unrwa-shelter-2025.jpg 1600w" sizes="(max-width: 900px) 68vw, 24vw" alt="موظفة من الأونروا تهدئ طفلة في مأوى مدرسي في مخيم النصيرات بغزة" width="1600" height="1053" loading="lazy" decoding="async">
+              <figcaption><span>مخيم النصيرات، مارس 2025</span>مأوى تابع للأونروا — صورة من أرشيف الوكالة.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="scene-no" aria-hidden="true">13</div>
+      <div class="slide__meta"><span>غزة · الإنسان قبل الرقم</span><span>صور: Wikimedia Commons · CC BY-SA 2.0 / CC BY 2.0 · الأونروا CC BY-SA 3.0 IGO</span></div>
+    </section>
+
+    <!-- 14 · HERITAGE -->
+    <section class="slide slide--heritage slide--light" id="s14" data-chapter="الهوية والتراث" data-scene="14" aria-roledescription="مشهد" aria-label="المشهد الرابع عشر: الهوية والتراث" aria-hidden="true" inert>
+      <div class="heritage-bg" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="layout layout--split layout--heritage">
+          <div class="copy copy--dark">
+            <p class="eyebrow eyebrow--dark reveal">الهوية والتراث <span class="eyebrow__sep">·</span> فلسطين التي نحملها</p>
+            <h2 class="title title--dark reveal" style="--d:.12s">الهوية ليست<br><em>شيئًا يُنسى.</em></h2>
+            <p class="lede lede--dark reveal" style="--d:.28s">تعيش فلسطين في تفاصيلها اليومية؛ في التطريز والدبكة والموسيقى والمطبخ الشعبي وأشجار الزيتون والحرف والقصائد والروايات. إنها ثقافة تتناقلها الأجيال وتحافظ عليها.</p>
+            <div class="fact-line fact-line--ink reveal" style="--d:.4s">
+              <span class="fact-line__mark"></span>
+              <p>أُدرج فن التطريز الفلسطيني على قائمة التراث الثقافي غير المادي لليونسكو عام 2021.</p>
+            </div>
+            <div class="copy__foot reveal" style="--d:.52s">
+              <button class="source-btn source-btn--ink js-sources" type="button" data-chapter="14">المصادر والصور</button>
+              <span class="meta-note">التراث حياة تُلبس وتُطبخ وتُرقص وتُروى.</span>
+            </div>
+          </div>
+          <div class="mosaic">
+            <figure class="tile tile--a reveal" style="--d:.28s">
+              <img src="assets/images/heritage/embroidery-detail.jpg" srcset="assets/images/heritage/embroidery-detail-900.jpg 900w, assets/images/heritage/embroidery-detail.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="تطريز فلسطيني ملون على قماش" width="1600" height="1200" loading="lazy" decoding="async">
+              <figcaption>تطريز</figcaption>
+            </figure>
+            <figure class="tile tile--b reveal" style="--d:.36s">
+              <img src="assets/images/heritage/ramallah-dress.jpg" srcset="assets/images/heritage/ramallah-dress-900.jpg 900w, assets/images/heritage/ramallah-dress.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="ثوب رام الله الفلسطيني من القرن التاسع عشر" width="1600" height="1958" loading="lazy" decoding="async">
+              <figcaption>ثوب رام الله</figcaption>
+            </figure>
+            <figure class="tile tile--c reveal" style="--d:.44s">
+              <img src="assets/images/heritage/keffiyeh-loom.jpg" srcset="assets/images/heritage/keffiyeh-loom-900.jpg 900w, assets/images/heritage/keffiyeh-loom.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="نول لنسج الكوفية الفلسطينية" width="1600" height="1066" loading="lazy" decoding="async">
+              <figcaption>الكوفية</figcaption>
+            </figure>
+            <figure class="tile tile--d reveal" style="--d:.52s">
+              <img src="assets/images/heritage/dabke.jpg" srcset="assets/images/heritage/dabke-900.jpg 900w, assets/images/heritage/dabke.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="فتيات يرقصن الدبكة الفلسطينية بالزي التقليدي" width="1600" height="1119" loading="lazy" decoding="async">
+              <figcaption>الدبكة</figcaption>
+            </figure>
+            <figure class="tile tile--e reveal" style="--d:.6s">
+              <img src="assets/images/heritage/maqluba.jpg" srcset="assets/images/heritage/maqluba-900.jpg 900w, assets/images/heritage/maqluba.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="طبق المقلوبة الفلسطينية" width="1600" height="1200" loading="lazy" decoding="async">
+              <figcaption>المقلوبة</figcaption>
+            </figure>
+            <figure class="tile tile--f reveal" style="--d:.68s">
+              <img src="assets/images/heritage/pottery-workshop.jpg" srcset="assets/images/heritage/pottery-workshop-900.jpg 900w, assets/images/heritage/pottery-workshop.jpg 1600w" sizes="(max-width: 900px) 42vw, 16vw" alt="ورشة فخار فلسطينية في القدس" width="1600" height="1129" loading="lazy" decoding="async">
+              <figcaption>الفخار</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="scene-no scene-no--ink" aria-hidden="true">14</div>
+      <div class="slide__meta slide__meta--ink"><span>الهوية · تفاصيل تُحفظ</span><span>صور: Wikimedia Commons (CC BY-SA) · ثوب رام الله: متحف المتروبوليتان (CC0)</span></div>
+    </section>
+
+    <!-- 15 · END -->
+    <section class="slide slide--ending" id="s15" data-chapter="الخاتمة" data-scene="15" aria-roledescription="مشهد" aria-label="المشهد الخامس عشر: الخاتمة" aria-hidden="true" inert>
+      <div class="slide__bg">
+        <img class="media__img anim-zoom-slow" src="assets/images/ending/tubas-sunset.jpg"
+             srcset="assets/images/ending/tubas-sunset-900.jpg 900w, assets/images/ending/tubas-sunset.jpg 1600w"
+             sizes="100vw" alt="غروب الشمس فوق حقول خضراء وتلال في منطقة طوباس، فلسطين" width="1600" height="1200" loading="lazy" decoding="async">
+      </div>
+      <div class="scrim scrim--ending" aria-hidden="true"></div>
+      <div class="glow glow--warm" aria-hidden="true"></div>
+      <div class="slide__inner">
+        <div class="ending">
+          <svg class="ending__branch reveal" style="--d:.15s" aria-hidden="true"><use href="#olive-branch"/></svg>
+          <p class="eyebrow eyebrow--gold reveal" style="--d:.25s">الختام</p>
+          <h2 class="ending__title reveal" style="--d:.4s">فلسطين...<br><em>حكاية لا تنتهي.</em></h2>
+          <p class="ending__text reveal" style="--d:.65s">قد تتغير الأماكن، وقد تمر السنوات، لكن الحكايات التي تسكن الذاكرة لا تنتهي.</p>
+          <p class="ending__text ending__text--strong reveal" style="--d:.8s">فلسطين أرض وذاكرة وهوية وثقافة وإنسان.</p>
+          <div class="ending__actions reveal" style="--d:1s">
+            <button class="cta cta--ghost" type="button" data-go="0">
+              <svg class="icon" aria-hidden="true"><use href="#i-restart"/></svg>
+              <span>إعادة مشاهدة الحكاية</span>
+            </button>
+          </div>
+          <div class="ending__credit reveal" style="--d:1.15s">
+            <span class="ending__credit-line"></span>
+            <p>من صنع <b>ملك عبدالسلام زايدة</b></p>
+            <span class="ending__credit-en">PALESTINE · A STORY THAT NEVER ENDS</span>
+          </div>
+        </div>
+      </div>
+      <div class="scene-no scene-no--light" aria-hidden="true">15</div>
+      <div class="slide__meta slide__meta--light"><span>فلسطين · حكاية لا تنتهي</span><button class="text-btn js-sources" type="button" data-chapter="15">مصادر المشهد والصور</button></div>
+    </section>
+
+  </main>
+
+  <div class="controls" aria-label="أدوات التنقل">
+    <div class="controls__arrows">
+      <button class="round-btn" id="prevBtn" type="button" aria-label="المشهد السابق" title="المشهد السابق (سهم أعلى)">
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+      </button>
+      <button class="round-btn" id="nextBtn" type="button" aria-label="المشهد التالي" title="المشهد التالي (سهم أسفل)">
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-down"/></svg>
+      </button>
+    </div>
+    <p class="controls__count"><span id="countCurrent">01</span><span class="controls__slash">/</span><span>15</span></p>
+  </div>
+
+  <div class="signature" aria-label="حقوق المشروع">
+    <span>من صنع</span> <b>ملك عبدالسلام زايدة</b>
+  </div>
+
+  <div class="nav-hint" id="navHint" aria-hidden="true">
+    <span class="nav-hint__key">↓</span>
+    <span>استخدم الأسهم أو اسحب للتنقل</span>
+  </div>
+
+  <dialog class="dialog" id="chapterDialog" aria-labelledby="chapterDialogTitle">
+    <div class="dialog__panel">
+      <header class="dialog__head">
+        <div>
+          <p class="dialog__kicker">المصادر والصور</p>
+          <h2 class="dialog__title" id="chapterDialogTitle">المشهد</h2>
+        </div>
+        <button class="dialog__close" type="button" data-close aria-label="إغلاق">
+          <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </header>
+      <div class="dialog__body" id="chapterDialogBody"></div>
+    </div>
+  </dialog>
+
+  <dialog class="dialog dialog--wide" id="creditsDialog" aria-labelledby="creditsDialogTitle">
+    <div class="dialog__panel">
+      <header class="dialog__head">
+        <div>
+          <p class="dialog__kicker">توثيق المشروع</p>
+          <h2 class="dialog__title" id="creditsDialogTitle">المصادر والحقوق</h2>
+        </div>
+        <button class="dialog__close" type="button" data-close aria-label="إغلاق">
+          <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </header>
+      <div class="dialog__body" id="creditsDialogBody"></div>
+    </div>
+  </dialog>
+
+  <audio id="music" preload="none" loop>
+    <source src="assets/audio/palestine-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <noscript>
+    <style>.boot{display:none}</style>
+    <p class="noscript-note">يحتاج هذا الموقع إلى JavaScript للتنقل بين المشاهد. يمكنك قراءة النصوص في المشهد الأول، وستظل الصور والمصادر متاحة.</p>
+  </noscript>
+
+  <script src="script.js"></script>
+</body>
+</html>
